@@ -16,8 +16,8 @@ const App = () => {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Tech Global",
-      "url": "https://www.techglobal.com",
-      "logo": "https://www.techglobal.com/logo.png",
+      "url": "https://www.techglobe-solutions.com",
+      "logo": "https://www.techglobe-solutions.com/logo.png",
       "description": "Leading IT solutions provider specializing in AI bots, custom software development, UI/UX design, and business automation systems.",
       "address": {
         "@type": "PostalAddress",
@@ -47,25 +47,25 @@ const App = () => {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://www.techglobal.com"
+          "item": "https://www.techglobe-solutions.com"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Services",
-          "item": "https://www.techglobal.com#services"
+          "item": "https://www.techglobe-solutions.com#services"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Portfolio",
-          "item": "https://www.techglobal.com#portfolio"
+          "item": "https://www.techglobe-solutions.com#portfolio"
         },
         {
           "@type": "ListItem",
           "position": 4,
           "name": "Contact",
-          "item": "https://www.techglobal.com#contact"
+          "item": "https://www.techglobe-solutions.com#contact"
         }
       ]
     };
@@ -92,7 +92,7 @@ const App = () => {
     <div itemScope itemType="https://schema.org/Organization">
       <meta itemProp="name" content="Tech Global" />
       <meta itemProp="description" content="Leading IT solutions provider specializing in AI bots, custom software development, UI/UX design, and business automation systems." />
-      <meta itemProp="url" content="https://www.techglobal.com" />
+      <meta itemProp="url" content="https://www.techglobe-solutions.com" />
       
       <Header />
       <Nav role="navigation" aria-label="Main navigation" />

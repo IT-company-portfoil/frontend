@@ -119,7 +119,7 @@ const Intro = () => {
         </article>
       </div>
       
-      <meta itemProp="url" content="https://www.techglobal.com" />
+      <meta itemProp="url" content="https://www.techglobe-solutions.com" />
       <meta itemProp="founder" content="Tech Global Team" />
       <meta itemProp="knowsAbout" content="AI Development, Web Development, UI/UX Design, Business Automation" />
     </div>

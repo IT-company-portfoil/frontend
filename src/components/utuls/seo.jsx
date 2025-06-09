@@ -8,9 +8,9 @@ export const generateMetaTags = (pageData = {}) => {
     title = "Tech Global - Advanced IT Solutions & Software Development",
     description = "Transform your business with Tech Global's cutting-edge IT solutions. We specialize in AI bots, custom portfolio websites, UI/UX design, mobile apps, and WordPress development.",
     keywords = "IT solutions, software development, AI bots, web development, UI/UX design, mobile apps, WordPress development",
-    canonical = "https://www.techglobal.com/",
-    ogImage = "https://www.techglobal.com/og-image.jpg",
-    twitterImage = "https://www.techglobal.com/twitter-image.jpg",
+    canonical = "https://www.techglobe-solutions.com/",
+    ogImage = "https://www.techglobe-solutions.com/og-image.jpg",
+    twitterImage = "https://www.techglobe-solutions.com/twitter-image.jpg",
     ogType = "website",
     article = null
   } = pageData;
@@ -73,12 +73,12 @@ export const generateStructuredData = (type, data = {}) => {
     case "Organization":
       return {
         ...baseData,
-        "@id": "https://www.techglobal.com/#organization",
+        "@id": "https://www.techglobe-solutions.com/#organization",
         "name": "Tech Global",
-        "url": "https://www.techglobal.com",
+        "url": "https://www.techglobe-solutions.com",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://www.techglobal.com/logo.png",
+          "url": "https://www.techglobe-solutions.com/logo.png",
           "width": 200,
           "height": 60
         },
@@ -111,15 +111,15 @@ export const generateStructuredData = (type, data = {}) => {
       return {
         ...baseData,
         "name": "Tech Global",
-        "url": "https://www.techglobal.com",
+        "url": "https://www.techglobe-solutions.com",
         "description": "Advanced IT solutions including AI bots, web development, UI/UX design, and business automation systems",
         "potentialAction": {
           "@type": "SearchAction",
-          "target": "https://www.techglobal.com/search?q={search_term_string}",
+          "target": "https://www.techglobe-solutions.com/search?q={search_term_string}",
           "query-input": "required name=search_term_string"
         },
         "publisher": {
-          "@id": "https://www.techglobal.com/#organization"
+          "@id": "https://www.techglobe-solutions.com/#organization"
         },
         ...data
       };
@@ -128,7 +128,7 @@ export const generateStructuredData = (type, data = {}) => {
       return {
         ...baseData,
         "provider": {
-          "@id": "https://www.techglobal.com/#organization"
+          "@id": "https://www.techglobe-solutions.com/#organization"
         },
         "areaServed": "Worldwide",
         "serviceType": "Information Technology Services",
@@ -139,7 +139,7 @@ export const generateStructuredData = (type, data = {}) => {
       return {
         ...baseData,
         "publisher": {
-          "@id": "https://www.techglobal.com/#organization"
+          "@id": "https://www.techglobe-solutions.com/#organization"
         },
         "mainEntityOfPage": {
           "@type": "WebPage",
@@ -155,7 +155,7 @@ export const generateStructuredData = (type, data = {}) => {
         "itemReviewed": {
           "@type": "Service",
           "provider": {
-            "@id": "https://www.techglobal.com/#organization"
+            "@id": "https://www.techglobe-solutions.com/#organization"
           }
         },
         ...data
@@ -204,7 +204,7 @@ export const generateFAQStructuredData = (faqs = []) => {
  * Create canonical URL
  */
 export const createCanonicalUrl = (path = "") => {
-  const baseUrl = "https://www.techglobal.com";
+  const baseUrl = "https://www.techglobe-solutions.com";
   const cleanPath = path.startsWith("/") ? path : `/${path}`;
   return `${baseUrl}${cleanPath}`;
 };

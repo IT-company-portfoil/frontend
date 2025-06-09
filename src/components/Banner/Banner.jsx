@@ -9,7 +9,7 @@ const Banner = () => {
       "@type": "WebPage",
       "name": "Tech Global - Business Technology Solutions",
       "description": "Boost your business with the latest technology solutions from Tech Global. Contact us for AI bots, custom software, and business automation.",
-      "url": "https://www.techglobal.com",
+      "url": "https://www.techglobe-solutions.com",
       "mainEntity": {
         "@type": "Organization",
         "name": "Tech Global",

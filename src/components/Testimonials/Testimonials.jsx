@@ -75,7 +75,7 @@ const Testimonials = () => {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Tech Global",
-      "url": "https://www.techglobal.com",
+      "url": "https://www.techglobe-solutions.com",
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",

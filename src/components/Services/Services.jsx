@@ -11,7 +11,7 @@ const Services = () => {
       "@type": "Organization",
       "name": "Tech Global",
       "description": "Leading IT solutions provider offering comprehensive technology services",
-      "url": "https://www.techglobal.com",
+      "url": "https://www.techglobe-solutions.com",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "IT Solutions and Services",

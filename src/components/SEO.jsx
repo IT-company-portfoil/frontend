@@ -5,9 +5,9 @@ const SEO = ({
   title = "Tech Global - Advanced IT Solutions & Software Development",
   description = "Transform your business with Tech Global's cutting-edge IT solutions. We specialize in AI bots, custom portfolio websites, UI/UX design, mobile apps, and WordPress development.",
   keywords = "IT solutions, software development, AI bots, web development, UI/UX design, mobile apps, WordPress development",
-  canonical = "https://www.techglobal.com/",
-  ogImage = "https://www.techglobal.com/og-image.jpg",
-  twitterImage = "https://www.techglobal.com/twitter-image.jpg",
+  canonical = "https://www.techglobe-solutions.com/",
+  ogImage = "https://www.techglobe-solutions.com/og-image.jpg",
+  twitterImage = "https://www.techglobe-solutions.com/twitter-image.jpg",
   schemaMarkup = null
 }) => {
   return (

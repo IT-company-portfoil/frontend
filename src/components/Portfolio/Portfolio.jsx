@@ -40,7 +40,7 @@ const Portfolio = () => {
       "creator": {
         "@type": "Organization",
         "name": "Tech Global",
-        "url": "https://www.techglobal.com"
+        "url": "https://www.techglobe-solutions.com"
       },
       "hasPart": works.map((work, index) => ({
         "@type": "CreativeWork",
@@ -51,7 +51,7 @@ const Portfolio = () => {
           "name": "Tech Global"
         },
         "image": work.img,
-        "url": `https://www.techglobal.com${work.url}`,
+        "url": `https://www.techglobe-solutions.com${work.url}`,
         "genre": work.category,
         "keywords": work.technologies.join(", ")
       }))
