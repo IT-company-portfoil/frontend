@@ -1,6 +1,6 @@
 import React from "react";
 
-const Testimony = ({ img }) => {
+const Testimony = ({ img, review, name , position}) => {
   return (
     <div className="testimony">
       <div className="testimony__avatar">
@@ -8,12 +8,11 @@ const Testimony = ({ img }) => {
       </div>
       <div className="testimony__comment">
         <p className="text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-          pariatur totam error aliquid?
+        {review}
         </p>
         <p className="text">
-          <strong style={{ color: "black" }}>Dani Moreno / </strong>
-          Businessman
+          <strong style={{ color: "black" }}>{name} / </strong>
+          {position}
         </p>
       </div>
     </div>

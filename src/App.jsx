@@ -1,17 +1,17 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
-import Portfolio from "./components/Portfolio/Portfolio";
-import Testimonials from "./components/Testimonials/Testimonials";
-import News from "./components/News/News";
-import Banner from "./components/Banner/Banner";
 import Footer from "./components/Footer/Footer";
+import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
+import ContactPage from "./components/ContactPage/ContactPage";
+import HomePage from "./components/HomePage/HomePage";
+import { HelmetProvider } from 'react-helmet-async';
 
 const App = () => {
   useEffect(() => {
-    // Add structured data for organization
     const structuredData = {
       "@context": "https://schema.org",
       "@type": "Organization",
@@ -58,14 +58,14 @@ const App = () => {
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Portfolio",
-          "item": "https://www.techglobe-solutions.com#portfolio"
+          "name": "Projects",
+          "item": "https://www.techglobe-solutions.com/projects"
         },
         {
           "@type": "ListItem",
           "position": 4,
           "name": "Contact",
-          "item": "https://www.techglobe-solutions.com#contact"
+          "item": "https://www.techglobe-solutions.com/contact"
         }
       ]
     };
@@ -83,31 +83,38 @@ const App = () => {
 
     return () => {
       // Cleanup scripts on unmount
-      document.head.removeChild(orgScript);
-      document.head.removeChild(breadcrumbScript);
+      if (document.head.contains(orgScript)) {
+        document.head.removeChild(orgScript);
+      }
+      if (document.head.contains(breadcrumbScript)) {
+        document.head.removeChild(breadcrumbScript);
+      }
     };
   }, []);
 
   return (
-    <div itemScope itemType="https://schema.org/Organization">
-      <meta itemProp="name" content="Tech Global" />
-      <meta itemProp="description" content="Leading IT solutions provider specializing in AI bots, custom software development, UI/UX design, and business automation systems." />
-      <meta itemProp="url" content="https://www.techglobe-solutions.com" />
-      
-      <Header />
-      <Nav role="navigation" aria-label="Main navigation" />
-      
-      <main role="main">
-        <About />
-        <Services />
-        <Portfolio />
-        <Testimonials />
-        {/* <News /> */}
-        <Banner />
-      </main>
-      
-      <Footer />
-    </div>
+    <HelmetProvider>
+    <Router>
+      <div itemScope itemType="https://schema.org/Organization">
+        <meta itemProp="name" content="Tech Global" />
+        <meta itemProp="description" content="Leading IT solutions provider specializing in AI bots, custom software development, UI/UX design, and business automation systems." />
+        <meta itemProp="url" content="https://www.techglobe-solutions.com" />
+        
+        <Header />
+        <Nav role="navigation" aria-label="Main navigation" />
+        
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+        </Routes>
+        
+        <Footer />
+      </div>
+    </Router>
+    </HelmetProvider>
   );
 };
 

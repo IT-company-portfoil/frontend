@@ -1,11 +1,15 @@
 import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Intro from "./Intro";
 import ServicesComp from "./Services__Comp";
+import SEO from "../SEO";
 import "./style.css";
 
 const Services = () => {
+  const location = useLocation();
+  const isStandalonePage = location.pathname === '/services';
+
   useEffect(() => {
-    // Add structured data for services section
     const servicesStructuredData = {
       "@context": "https://schema.org",
       "@type": "Organization",
@@ -97,35 +101,46 @@ const Services = () => {
   }, []);
 
   return (
-    <section 
-      id="services" 
-      className="container container__services"
-      role="region"
-      aria-labelledby="services-heading"
-      itemScope
-      itemType="https://schema.org/Service"
-    >
-      <header className="visually-hidden">
-        <h2 id="services-heading">Tech Global IT Solutions and Services</h2>
-      </header>
-      
+    <>
+      {isStandalonePage && (
+        <SEO 
+          title="IT Services - Tech Global | AI Bots, Web Development & Custom Software"
+          description="Explore Tech Global's comprehensive IT services including AI bot development, custom portfolio websites, UI/UX design, mobile apps, and business automation solutions."
+          keywords="IT services, AI bot development, web development services, UI/UX design, mobile app development, WordPress development, custom software solutions, business automation"
+          url="/services"
+          type="website"
+        />
+      )}
       <section 
-        aria-labelledby="services-intro"
+        id="services" 
+        className="container container__services"
         role="region"
-      >
-        <Intro />
-      </section>
-      
-      <section 
-        aria-labelledby="services-offerings"
-        role="region"
-        itemProp="hasOfferCatalog"
+        aria-labelledby="services-heading"
         itemScope
-        itemType="https://schema.org/OfferCatalog"
+        itemType="https://schema.org/Service"
       >
-        <ServicesComp />
+        <header className="visually-hidden">
+          <h2 id="services-heading">Tech Global IT Solutions and Services</h2>
+        </header>
+        
+        <section 
+          aria-labelledby="services-intro"
+          role="region"
+        >
+          <Intro />
+        </section>
+        
+        <section 
+          aria-labelledby="services-offerings"
+          role="region"
+          itemProp="hasOfferCatalog"
+          itemScope
+          itemType="https://schema.org/OfferCatalog"
+        >
+          <ServicesComp />
+        </section>
       </section>
-    </section>
+    </>
   );
 };
 

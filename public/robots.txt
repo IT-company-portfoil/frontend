@@ -1,4 +1,19 @@
-User-agent: *
-Disallow:
+const robotsTxt = `User-agent: *
+Allow: /
 
+# Crawl-delay for responsible crawling
+Crawl-delay: 1
+
+# Disallow admin or private areas (if any)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /*?*
+
+# Allow search engines to access CSS and JS files
+Allow: /*.css$
+Allow: /*.js$
+Allow: /images/
+
+# Sitemap location
 Sitemap: https://techglobe-solutions.com/sitemap.xml

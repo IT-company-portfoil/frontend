@@ -9,7 +9,9 @@
     "react-circular-progressbar": "^2.2.0",
     "react-dom": "^19.1.0",
     "react-helmet": "^6.1.0",
+    "react-helmet-async": "^2.0.5",
     "react-icons": "4.3.1",
+    "react-router-dom": "^7.6.2",
     "swiper": "8.0.7",
     "swiper.js": "1.0.0"
   },
