@@ -20,7 +20,7 @@ const App = () => {
       "logo": "https://www.techglobe-solutions.com/logo.png",
       "description": "Leading IT solutions provider specializing in AI bots, custom software development, UI/UX design, and business automation systems.",
       "address": {
-        "@type": "PostalAddress",
+        "@type": "PostalAddres",
         "streetAddress": "232 California Road Imperial",
         "addressLocality": "Imperial",
         "addressCountry": "US"
