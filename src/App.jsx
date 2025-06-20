@@ -32,9 +32,9 @@ const App = () => {
         "email": "info@techglobe.com"
       },
       "sameAs": [
-        "https://www.facebook.com/techglobal",
-        "https://www.twitter.com/techglobal",
-        "https://www.instagram.com/techglobal"
+        "https://www.facebook.com/share/16n8DZaHxc/?mibextid=wwXlfr",
+        "https://www.instagram.com/techglobe.jo",
+        "https://www.linkedin.com/company/tech-globe-solutions.jo"
       ]
     };
 

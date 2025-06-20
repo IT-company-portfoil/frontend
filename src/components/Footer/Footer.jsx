@@ -1,13 +1,12 @@
 import React, { useEffect } from "react";
 import { CgInstagram } from "react-icons/cg";
-import { AiFillTwitterSquare } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillFacebook } from "react-icons/ai";
 import "./style.css";
 import Logo from "../Nav/Logo";
 
 const Footer = () => {
   useEffect(() => {
-    // Add structured data for contact information
     const contactStructuredData = {
       "@context": "https://schema.org",
       "@type": "Organization",
@@ -27,9 +26,9 @@ const Footer = () => {
         "addressCountry": "US"
       },
       "sameAs": [
-        "https://www.facebook.com/techglobal",
-        "https://www.instagram.com/techglobal",
-        "https://www.twitter.com/techglobal"
+        "https://www.facebook.com/share/16n8DZaHxc/?mibextid=wwXlfr",
+        "https://www.instagram.com/techglobe.jo",
+        "https://www.linkedin.com/company/tech-globe-solutions.jo"
       ]
     };
 
@@ -68,7 +67,7 @@ const Footer = () => {
           <ul className="footer__socials" role="list">
             <li>
               <a 
-                href="https://www.facebook.com/techglobal"
+                href="https://www.facebook.com/share/16n8DZaHxc/?mibextid=wwXlfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Follow Tech Global on Facebook"
@@ -80,7 +79,7 @@ const Footer = () => {
             </li>
             <li>
               <a 
-                href="https://www.instagram.com/techglobal"
+                href="https://www.instagram.com/techglobe.jo"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Follow Tech Global on Instagram"
@@ -92,14 +91,14 @@ const Footer = () => {
             </li>
             <li>
               <a 
-                href="https://www.twitter.com/techglobal"
+                href="https://www.linkedin.com/company/tech-globe-solutions-jo"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Follow Tech Global on Twitter"
                 itemProp="sameAs"
               >
-                <AiFillTwitterSquare aria-hidden="true" />
-                <span className="visually-hidden">Twitter</span>
+                <AiFillLinkedin aria-hidden="true" />
+                <span className="visually-hidden">Linkedin</span>
               </a>
             </li>
           </ul>
