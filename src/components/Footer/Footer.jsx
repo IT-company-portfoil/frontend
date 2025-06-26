@@ -10,7 +10,7 @@ const Footer = () => {
     const contactStructuredData = {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Tech Global",
+      "name": "Tech Globe",
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "+212698584458",
@@ -53,7 +53,7 @@ const Footer = () => {
     >
       <section className="about" aria-labelledby="footer-about-heading">
         <Logo />
-        <h3 id="footer-about-heading" className="visually-hidden">About Tech Global</h3>
+        <h3 id="footer-about-heading" className="visually-hidden">About Tech Globe</h3>
         <p 
           className="text"
           itemProp="description"
@@ -70,7 +70,7 @@ const Footer = () => {
                 href="https://www.facebook.com/share/16n8DZaHxc/?mibextid=wwXlfr"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Follow Tech Global on Facebook"
+                aria-label="Follow Tech Globe on Facebook"
                 itemProp="sameAs"
               >
                 <AiFillFacebook aria-hidden="true" />
@@ -82,7 +82,7 @@ const Footer = () => {
                 href="https://www.instagram.com/techglobe.jo"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Follow Tech Global on Instagram"
+                aria-label="Follow Tech Globe on Instagram"
                 itemProp="sameAs"
               >
                 <CgInstagram aria-hidden="true" />
@@ -94,7 +94,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/company/tech-globe-solutions-jo"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Follow Tech Global on Twitter"
+                aria-label="Follow Tech Globe on Twitter"
                 itemProp="sameAs"
               >
                 <AiFillLinkedin aria-hidden="true" />
@@ -189,7 +189,7 @@ const Footer = () => {
               href="tel:+212698584458" 
               className="text"
               itemProp="telephone"
-              aria-label="Call Tech Global at +212698584458"
+              aria-label="Call Tech Globe at +212698584458"
             >
               <span aria-hidden="true">Tel : </span>+212698584458
             </a>
@@ -199,7 +199,7 @@ const Footer = () => {
               href="mailto:info@techglobe.com" 
               className="text"
               itemProp="email"
-              aria-label="Email Tech Global at info@techglobe.com"
+              aria-label="Email Tech Globe at info@techglobe.com"
             >
               <span aria-hidden="true">Email: </span>info@techglobe.com
             </a>

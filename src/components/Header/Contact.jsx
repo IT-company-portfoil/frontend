@@ -14,7 +14,7 @@ const Contact = () => {
       <a 
         href="mailto:info@techglobe.com"
         itemProp="email"
-        aria-label="Send email to Tech Global at info@techglobe.com"
+        aria-label="Send email to Tech Globe at info@techglobe.com"
         title="Email us for inquiries and support"
       >
         <AiFillMail aria-hidden="true" />
@@ -24,7 +24,7 @@ const Contact = () => {
       <a 
         href="tel:+212698584458"
         itemProp="telephone"
-        aria-label="Call Tech Global at +212698584458"
+        aria-label="Call Tech Globe at +212698584458"
         title="Call us for immediate assistance"
       >
         <AiFillPhone aria-hidden="true" />

@@ -33,12 +33,12 @@ const ContactPage = () => {
     const contactStructuredData = {
       "@context": "https://schema.org",
       "@type": "ContactPage",
-      "name": "Contact Tech Global",
-      "description": "Get in touch with Tech Global for IT solutions, software development, and digital transformation services",
+      "name": "Contact Tech Globe",
+      "description": "Get in touch with Tech Globe for IT solutions, software development, and digital transformation services",
       "url": "https://techglobe-solutions.com/contact",
       "mainEntity": {
         "@type": "Organization",
-        "name": "Tech Global",
+        "name": "Tech Globe",
         "contactPoint": [
           {
             "@type": "ContactPoint",
@@ -140,9 +140,9 @@ const ContactPage = () => {
   return (
     <>
       <SEO 
-        title="Contact Tech Global - Get Your Free IT Consultation"
-        description="Contact Tech Global for custom IT solutions, AI bot development, web design, and software development. Get a free consultation for your digital transformation project."
-        keywords="contact tech global, IT consultation, software development quote, AI bot pricing, web development contact, custom software inquiry, get in touch"
+        title="Contact Tech Globe - Get Your Free IT Consultation"
+        description="Contact Tech Globe for custom IT solutions, AI bot development, web design, and software development. Get a free consultation for your digital transformation project."
+        keywords="contact tech Globe, IT consultation, software development quote, AI bot pricing, web development contact, custom software inquiry, get in touch"
         url="/contact"
         type="website"
       />

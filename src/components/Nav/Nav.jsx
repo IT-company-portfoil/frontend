@@ -21,7 +21,7 @@ const Nav = () => {
           itemType="https://schema.org/Organization"
         >
           <Logo />
-          <meta itemProp="name" content="Tech Global" />
+          <meta itemProp="name" content="Tech Globe" />
         </div>
         
         <div 

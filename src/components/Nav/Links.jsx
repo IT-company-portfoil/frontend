@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 const Links = () => {
   const links = [
     { id: "/", label: "Home", title: "Go to homepage" },
-    { id: "/about", label: "About", title: "Learn about Tech Global" },
+    { id: "/about", label: "About", title: "Learn about Tech Globe" },
     { id: "/services", label: "Services", title: "View our IT services" },
     { id: "/projects", label: "Portfolio", title: "See our work portfolio" },
     // { id: "testimony", label: "Testimony", title: "Read client testimonials" },
     // { id: "news", label: "News", title: "Latest news and updates" },
-    { id: "/contact", label: "Contact", title: "Contact Tech Global" }
+    { id: "/contact", label: "Contact", title: "Contact Tech Globe" }
   ];
   
   const [linksVisibility, setLinksVisibility] = useState(false);

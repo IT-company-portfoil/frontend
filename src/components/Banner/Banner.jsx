@@ -7,12 +7,12 @@ const Banner = () => {
     const ctaStructuredData = {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "Tech Global - Business Technology Solutions",
-      "description": "Boost your business with the latest technology solutions from Tech Global. Contact us for AI bots, custom software, and business automation.",
+      "name": "Tech Globe - Business Technology Solutions",
+      "description": "Boost your business with the latest technology solutions from Tech Globe. Contact us for AI bots, custom software, and business automation.",
       "url": "https://www.techglobe-solutions.com",
       "mainEntity": {
         "@type": "Organization",
-        "name": "Tech Global",
+        "name": "Tech Globe",
         "offers": {
           "@type": "Offer",
           "name": "IT Solutions Consultation",
@@ -56,7 +56,7 @@ const Banner = () => {
           <button 
             className="btn btn-primary"
             type="button"
-            aria-label="Contact Tech Global to discuss your business technology needs"
+            aria-label="Contact Tech Globe to discuss your business technology needs"
             itemScope
             itemType="https://schema.org/ContactPoint"
           >

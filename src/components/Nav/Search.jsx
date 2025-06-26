@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Button from "../Global__Components/Button";
+import Button from "../Globe__Components/Button";
 import { RiSearchLine } from "react-icons/ri";
 
 const Search = () => {

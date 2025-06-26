@@ -17,7 +17,7 @@ const About = () => {
       "@type": "AboutPage",
       "mainEntity": {
         "@type": "Organization",
-        "name": "Tech Global",
+        "name": "Tech Globe",
         "description": "Transform your business with cutting-edge technology. From intelligent AI bots that automate customer service to stunning portfolio websites that convert visitors into clients, we build software solutions that drive real results and competitive advantage.",
         "foundingDate": "2020",
         "numberOfEmployees": "10-50",
@@ -46,9 +46,9 @@ const About = () => {
     <>
       {isStandalonePage && (
         <SEO 
-          title="About Tech Global - Leading IT Solutions Provider Since 2020"
-          description="Learn about Tech Global's mission to transform businesses through innovative IT solutions. We specialize in AI automation, custom software development, and digital transformation."
-          keywords="about tech global, IT company, software development company, AI solutions provider, digital transformation, business automation experts"
+          title="About Tech Globe - Leading IT Solutions Provider Since 2020"
+          description="Learn about Tech Globe's mission to transform businesses through innovative IT solutions. We specialize in AI automation, custom software development, and digital transformation."
+          keywords="about tech Globe, IT company, software development company, AI solutions provider, digital transformation, business automation experts"
           url="/about"
           type="website"
         />
@@ -84,7 +84,7 @@ const About = () => {
             <div className="about__buttons" role="group" aria-label="About section actions">
               <button 
                 className="btn btn-primary"
-                aria-label="Contact Tech Global for IT solutions"
+                aria-label="Contact Tech Globe for IT solutions"
               >
                 Get In Touch
               </button>
@@ -107,7 +107,7 @@ const About = () => {
             <figure className="about__image">
               <img
                 src="https://st4.depositphotos.com/17586788/i/600/depositphotos_247586928-stock-photo-a-successful-business-girl-in.jpg"
-                alt="Professional business woman representing Tech Global's commitment to business growth and innovation in IT solutions"
+                alt="Professional business woman representing Tech Globe's commitment to business growth and innovation in IT solutions"
                 loading="lazy"
                 width="600"
                 height="400"

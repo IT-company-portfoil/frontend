@@ -40,11 +40,11 @@ const Portfolio = () => {
     const portfolioStructuredData = {
       "@context": "https://schema.org",
       "@type": "CreativeWorkSeries",
-      "name": "Tech Global Portfolio",
-      "description": "Collection of innovative IT solutions and software development projects by Tech Global",
+      "name": "Tech Globe Portfolio",
+      "description": "Collection of innovative IT solutions and software development projects by Tech Globe",
       "creator": {
         "@type": "Organization",
-        "name": "Tech Global",
+        "name": "Tech Globe",
         "url": "https://www.techglobe-solutions.com"
       },
       "hasPart": works.map((work, index) => ({
@@ -53,7 +53,7 @@ const Portfolio = () => {
         "description": work.text,
         "creator": {
           "@type": "Organization",
-          "name": "Tech Global"
+          "name": "Tech Globe"
         },
         "image": work.img,
         "url": `https://www.techglobe-solutions.com${work.url}`,
@@ -81,7 +81,7 @@ const Portfolio = () => {
       itemScope
       itemType="https://schema.org/CreativeWorkSeries"
     >
-      <meta itemProp="name" content="Tech Global Portfolio" />
+      <meta itemProp="name" content="Tech Globe Portfolio" />
       <meta itemProp="description" content="Collection of innovative IT solutions and software development projects" />
 
       {works.map((work, index) => {
@@ -99,7 +99,7 @@ const Portfolio = () => {
                 <button
                   className="btn btn-primary"
                   type="button"
-                  aria-label="Learn more about Tech Global's portfolio and projects"
+                  aria-label="Learn more about Tech Globe's portfolio and projects"
                 >
                   More About
                 </button>

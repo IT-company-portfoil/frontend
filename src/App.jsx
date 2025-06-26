@@ -15,7 +15,7 @@ const App = () => {
     const structuredData = {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Tech Global",
+      "name": "Tech Globe",
       "url": "https://www.techglobe-solutions.com",
       "logo": "https://www.techglobe-solutions.com/logo.png",
       "description": "Leading IT solutions provider specializing in AI bots, custom software development, UI/UX design, and business automation systems.",
@@ -96,7 +96,7 @@ const App = () => {
     <HelmetProvider>
     <Router>
       <div itemScope itemType="https://schema.org/Organization">
-        <meta itemProp="name" content="Tech Global" />
+        <meta itemProp="name" content="Tech Globe" />
         <meta itemProp="description" content="Leading IT solutions provider specializing in AI bots, custom software development, UI/UX design, and business automation systems." />
         <meta itemProp="url" content="https://www.techglobe-solutions.com" />
         

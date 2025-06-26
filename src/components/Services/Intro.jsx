@@ -111,7 +111,7 @@ const Intro = () => {
             <button 
               className="btn btn-primary"
               type="button"
-              aria-label="Learn more about Tech Global's IT solutions and services"
+              aria-label="Learn more about Tech Globe's IT solutions and services"
             >
               More About
             </button>
@@ -120,7 +120,7 @@ const Intro = () => {
       </div>
       
       <meta itemProp="url" content="https://www.techglobe-solutions.com" />
-      <meta itemProp="founder" content="Tech Global Team" />
+      <meta itemProp="founder" content="Tech Globe Team" />
       <meta itemProp="knowsAbout" content="AI Development, Web Development, UI/UX Design, Business Automation" />
     </div>
   );

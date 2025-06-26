@@ -9,7 +9,7 @@ useEffect(() => {
     const projectsStructuredData = {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
-      "name": "Tech Global Projects Portfolio",
+      "name": "Tech Globe Projects Portfolio",
       "description": "Explore our portfolio of successful IT solutions and digital transformations",
       "url": "https://techglobe-solutions.com/projects",
       "mainEntity": {
@@ -22,7 +22,7 @@ useEffect(() => {
           "dateCreated": project.year,
           "creator": {
             "@type": "Organization",
-            "name": "Tech Global"
+            "name": "Tech Globe"
           },
           "keywords": project.technologies.join(", ")
         }))
@@ -79,7 +79,7 @@ useEffect(() => {
   return (
     <>
     <SEO 
-        title="Our Projects - Tech Global IT Solutions Portfolio"
+        title="Our Projects - Tech Globe IT Solutions Portfolio"
         description="Discover our portfolio of successful digital solutions including AI bots, e-commerce platforms, and custom software that have transformed businesses across various industries."
         keywords="portfolio, IT projects, web development projects, AI bot examples, e-commerce solutions, school management system, custom software showcase"
         url="https://techglobe-solutions.com/projects"

@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header 
       role="banner"
-      aria-label="Tech Global main header with contact information and social links"
+      aria-label="Tech Globe main header with contact information and social links"
       itemScope 
       itemType="https://schema.org/Organization"
     >
@@ -31,7 +31,7 @@ const Header = () => {
         </nav>
       </div>
       
-      <meta itemProp="name" content="Tech Global" />
+      <meta itemProp="name" content="Tech Globe" />
       <meta itemProp="description" content="Leading IT solutions provider specializing in AI development and business automation" />
     </header>
   );

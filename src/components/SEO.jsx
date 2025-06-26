@@ -8,7 +8,7 @@ const EnhancedSEO = ({
   image, 
   url,
   type = 'website',
-  author = 'Tech Global',
+  author = 'Tech Globe',
   publishedTime,
   modifiedTime,
   section,
@@ -23,7 +23,7 @@ const EnhancedSEO = ({
     facebook: 'https://www.facebook.com/share/16n8DZaHxc/?mibextid=wwXlfr',
     instagram: '@techglobe.jo',
     linkedin: 'https://www.linkedin.com/company/tech-globe-solutions-jo',
-    twitter: '@techglobal'
+    twitter: '@techGlobe'
   };
   
   return (
@@ -41,7 +41,7 @@ const EnhancedSEO = ({
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image || defaultImage} />
-      <meta property="og:site_name" content="Tech Global" />
+      <meta property="og:site_name" content="Tech Globe" />
       <meta property="og:locale" content="en_US" />
       
       {/* Facebook specific */}
@@ -80,13 +80,13 @@ const EnhancedSEO = ({
           "url": currentUrl,
           "author": {
             "@type": "Organization",
-            "name": "Tech Global",
+            "name": "Tech Globe",
             "url": siteUrl,
             "sameAs": Object.values(socialAccounts).filter(acc => acc.startsWith('http'))
           },
           "publisher": {
             "@type": "Organization",
-            "name": "Tech Global",
+            "name": "Tech Globe",
             "logo": {
               "@type": "ImageObject",
               "url": `${siteUrl}/logo.png`

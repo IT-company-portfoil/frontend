@@ -13,7 +13,7 @@ const Services = () => {
     const servicesStructuredData = {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Tech Global",
+      "name": "Tech Globe",
       "description": "Leading IT solutions provider offering comprehensive technology services",
       "url": "https://www.techglobe-solutions.com",
       "hasOfferCatalog": {
@@ -30,7 +30,7 @@ const Services = () => {
               "serviceType": "Web Development",
               "provider": {
                 "@type": "Organization",
-                "name": "Tech Global"
+                "name": "Tech Globe"
               }
             }
           },
@@ -43,7 +43,7 @@ const Services = () => {
               "serviceType": "Artificial Intelligence",
               "provider": {
                 "@type": "Organization",
-                "name": "Tech Global"
+                "name": "Tech Globe"
               }
             }
           },
@@ -56,7 +56,7 @@ const Services = () => {
               "serviceType": "Design Services",
               "provider": {
                 "@type": "Organization",
-                "name": "Tech Global"
+                "name": "Tech Globe"
               }
             }
           },
@@ -69,7 +69,7 @@ const Services = () => {
               "serviceType": "Software Development",
               "provider": {
                 "@type": "Organization",
-                "name": "Tech Global"
+                "name": "Tech Globe"
               }
             }
           },
@@ -82,7 +82,7 @@ const Services = () => {
               "serviceType": "Custom Software Development",
               "provider": {
                 "@type": "Organization",
-                "name": "Tech Global"
+                "name": "Tech Globe"
               }
             }
           }
@@ -104,8 +104,8 @@ const Services = () => {
     <>
       {isStandalonePage && (
         <SEO 
-          title="IT Services - Tech Global | AI Bots, Web Development & Custom Software"
-          description="Explore Tech Global's comprehensive IT services including AI bot development, custom portfolio websites, UI/UX design, mobile apps, and business automation solutions."
+          title="IT Services - Tech Globe | AI Bots, Web Development & Custom Software"
+          description="Explore Tech Globe's comprehensive IT services including AI bot development, custom portfolio websites, UI/UX design, mobile apps, and business automation solutions."
           keywords="IT services, AI bot development, web development services, UI/UX design, mobile app development, WordPress development, custom software solutions, business automation"
           url="/services"
           type="website"
@@ -120,7 +120,7 @@ const Services = () => {
         itemType="https://schema.org/Service"
       >
         <header className="visually-hidden">
-          <h2 id="services-heading">Tech Global IT Solutions and Services</h2>
+          <h2 id="services-heading">Tech Globe IT Solutions and Services</h2>
         </header>
         
         <section 

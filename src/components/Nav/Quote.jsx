@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Global__Components/Button";
+import Button from "../Globe__Components/Button";
 
 const Quote = () => {
   return <Button content="Get a Quote" />;
